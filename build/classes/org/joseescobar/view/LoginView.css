@@ -1,0 +1,73 @@
+/* Estilos para el formulario izquierdo */
+.left-form {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #0d1351, #1c267d);
+    -fx-border-color: #5d459b;
+    -fx-border-width: 0.4px 0px 0.4px 0.4px;
+}
+
+/* Estilos para el formulario derecho */
+.right-form {
+    -fx-background-color: #1c267d;
+    -fx-border-color: #5d459b;
+    -fx-border-width: 0.4px 0px 0.4px 0.4px;
+}
+
+/* Etiquetas */
+.label {
+    -fx-text-fill: #d6adfc;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Estilos para los campos de texto */
+.textfield {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #5d459b, #1c267d);
+    -fx-background-radius: 4px;
+    -fx-border-color: #d6adfc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-font-size: 13px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #d6adfc;
+}
+
+/* Estilos para los campos de texto cuando están enfocados */
+.textfield:focused {
+    -fx-background-color: #0d1351;
+    -fx-border-color: #d6adfc;
+    -fx-border-width: 2px;
+}
+
+/* Estilos para el botón de inicio de sesión */
+.login-btn {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #5d459b, #1c267d);
+    -fx-background-radius: 5px;
+    -fx-text-fill: #d6adfc;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+/* Hover sobre el botón de inicio de sesión */
+.login-btn:hover {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #d6adfc, #5d459b);
+    -fx-text-fill: #0d1351;
+}
+
+/* Botón presionado */
+.login-btn:pressed {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #1c267d, #5d459b);
+    -fx-text-fill: #ffffff;
+}
+
+/* Estilos para el botón de cierre */
+.close-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #d6adfc;
+}
+
+/* Hover sobre el botón de cierre */
+.close-btn:hover {
+    -fx-background-color: #5d459b;
+    -fx-text-fill: #d6adfc;
+}

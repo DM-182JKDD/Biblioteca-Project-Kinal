@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.joseescobar.controller"},{"l":"org.joseescobar.db"},{"l":"org.joseescobar.model"},{"l":"org.joseescobar.sistema"},{"l":"org.joseescobar.validaciones"}];updateSearchResults();

@@ -1,0 +1,116 @@
+/* ====== PALETA ======
+#0d1351 → azul oscuro (fondo principal)
+#1c267d → azul profundo (paneles)
+#5d459b → violeta medio (botones)
+#d6adfc → violeta claro (texto y acentos)
+======================= */
+
+/* Fondo general */
+.stack-pane, .anchor-pane {
+    -fx-background-color: linear-gradient(to bottom right, #0d1351, #1c267d);
+}
+
+/* Etiquetas */
+.label {
+    -fx-text-fill: #d6adfc;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+/* Texto principal (título) */
+.label[text="Gracias por su compra"] {
+    -fx-font-size: 20px;
+    -fx-text-fill: #d6adfc;
+    -fx-font-weight: bold;
+}
+
+/* Campos de texto */
+.text-field {
+    -fx-background-color: #1c267d;
+    -fx-text-fill: #d6adfc;
+    -fx-border-color: #5d459b;
+    -fx-border-width: 1px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 13px;
+}
+
+.text-field:focused {
+    -fx-background-color: #0d1351;
+    -fx-border-color: #d6adfc;
+    -fx-border-width: 1.5px;
+}
+
+/* Botón de salida (X) */
+#btnSalir {
+    -fx-background-color: transparent;
+    -fx-text-fill: #d6adfc;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+#btnSalir:hover {
+    -fx-background-color: #5d459b;
+    -fx-text-fill: #ffffff;
+}
+
+/* Botón principal */
+#btnCompra {
+    -fx-background-color: linear-gradient(to bottom, #5d459b, #1c267d);
+    -fx-text-fill: #d6adfc;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #d6adfc;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+#btnCompra:hover {
+    -fx-background-color: linear-gradient(to bottom, #d6adfc, #5d459b);
+    -fx-text-fill: #0d1351;
+}
+
+/* Tabla */
+.table-view {
+    -fx-background-color: #1c267d;
+    -fx-border-color: #5d459b;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-text-background-color: #d6adfc;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #5d459b;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #5d459b;
+    -fx-text-fill: #ffffff;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #1c267d;
+    -fx-text-fill: #d6adfc;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #0d1351;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #d6adfc;
+    -fx-text-fill: #0d1351;
+}
+
+/* Sombra general */
+.anchor-pane {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 3);
+    -fx-background-radius: 10px;
+}

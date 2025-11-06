@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="1183.0" stylesheets="@RealizarCompra.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.joseescobar.controller.RealizarCompraController">
+    <children>
+        <AnchorPane prefHeight="537.0" prefWidth="1237.0" styleClass="anchor-pane">
+            <children>
+                <Label layoutX="572.0" layoutY="27.0" text="Libros Disponibles" />
+                
+                <GridPane layoutX="36.0" layoutY="59.0" prefHeight="419.0" prefWidth="524.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Label fx:id="lblTitulo1" layoutX="14.0" layoutY="14.0" style="-fx-font-weight: bold;" text="[Título 1]" />
+                                <Label fx:id="lblAutor1" layoutX="14.0" layoutY="38.0" text="Autor:" />
+                                <Label fx:id="lblPrecio1" layoutX="14.0" layoutY="62.0" text="Precio:" />
+                                <CheckBox fx:id="chbAgregar1" layoutX="63.0" layoutY="94.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="100.0" styleClass="button" text="Agregar" />
+                            </children>
+                        </Pane>
+                        
+                        <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                            <children>
+                                <Label fx:id="lblTitulo2" layoutX="14.0" layoutY="14.0" style="-fx-font-weight: bold;" text="[Título 2]" />
+                                <Label fx:id="lblAutor2" layoutX="14.0" layoutY="38.0" text="Autor:" />
+                                <Label fx:id="lblPrecio2" layoutX="14.0" layoutY="62.0" text="Precio:" />
+                                <CheckBox fx:id="chbAgregar2" layoutX="63.0" layoutY="94.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="100.0" styleClass="button" text="Agregar" />
+                            </children>
+                        </Pane>
+                        
+                        <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                            <children>
+                                <Label fx:id="lblTitulo5" layoutX="14.0" layoutY="14.0" style="-fx-font-weight: bold;" text="[Título 5]" />
+                                <Label fx:id="lblAutor5" layoutX="14.0" layoutY="38.0" text="Autor:" />
+                                <Label fx:id="lblPrecio5" layoutX="14.0" layoutY="62.0" text="Precio:" />
+                                <CheckBox fx:id="chbAgregar5" layoutX="63.0" layoutY="94.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="100.0" styleClass="button" text="Agregar" />
+                            </children>
+                        </Pane>
+                        
+                        <Pane prefHeight="140.0" prefWidth="274.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                            <children>
+                                <Label fx:id="lblTitulo6" layoutX="14.0" layoutY="14.0" style="-fx-font-weight: bold;" text="[Título 6]" />
+                                <Label fx:id="lblAutor6" layoutX="14.0" layoutY="38.0" text="Autor:" />
+                                <Label fx:id="lblPrecio6" layoutX="14.0" layoutY="62.0" text="Precio:" />
+                                <CheckBox fx:id="chbAgregar6" layoutX="63.0" layoutY="94.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="100.0" styleClass="button" text="Agregar" />
+                            </children>
+                        </Pane>
+                        
+                        <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                            <children>
+                                <Label fx:id="lblTitulo9" layoutX="14.0" layoutY="14.0" style="-fx-font-weight: bold;" text="[Título 9]" />
+                                <Label fx:id="lblAutor9" layoutX="14.0" layoutY="38.0" text="Autor:" />
+                                <Label fx:id="lblPrecio9" layoutX="14.0" layoutY="62.0" text="Precio:" />
+                                <CheckBox fx:id="chbAgregar9" layoutX="63.0" layoutY="93.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="100.0" styleClass="button" text="Agregar" />
+                            </children>
+                        </Pane>
+                        
+                        <Pane prefHeight="200.0" prefWidth="239.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                            <children>
+                                <Label fx:id="lblTitulo10" layoutX="14.0" layoutY="14.0" style="-fx-font-weight: bold;" text="[Título 10]" />
+                                <Label fx:id="lblAutor10" layoutX="14.0" layoutY="38.0" text="Autor:" />
+                                <Label fx:id="lblPrecio10" layoutX="14.0" layoutY="62.0" text="Precio:" />
+                                <CheckBox fx:id="chbAgregar10" layoutX="63.0" layoutY="93.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="100.0" styleClass="button" text="Agregar" />
+                            </children>
+                        </Pane>
+                    </children>
+                </GridPane>
+                
+                <GridPane layoutX="620.0" layoutY="59.0" prefHeight="412.0" prefWidth="524.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Label fx:id="lblTitulo3" layoutX="14.0" layoutY="14.0" style="-fx-font-weight: bold;" text="[Título 3]" />
+                                <Label fx:id="lblAutor3" layoutX="14.0" layoutY="38.0" text="Autor:" />
+                                <Label fx:id="lblPrecio3" layoutX="14.0" layoutY="62.0" text="Precio:" />
+                                <CheckBox fx:id="chbAgregar3" layoutX="63.0" layoutY="94.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="100.0" styleClass="button" text="Agregar" />
+                            </children>
+                        </Pane>
+                        
+                        <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                            <children>
+                                <Label fx:id="lblTitulo4" layoutX="14.0" layoutY="14.0" style="-fx-font-weight: bold;" text="[Título 4]" />
+                                <Label fx:id="lblAutor4" layoutX="14.0" layoutY="38.0" text="Autor:" />
+                                <Label fx:id="lblPrecio4" layoutX="14.0" layoutY="62.0" text="Precio:" />
+                                <CheckBox fx:id="chbAgregar4" layoutX="63.0" layoutY="94.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="100.0" styleClass="button" text="Agregar" />
+                            </children>
+                        </Pane>
+                        
+                              <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                            <children>
+                                <Label fx:id="lblTitulo7" layoutX="14.0" layoutY="14.0" style="-fx-font-weight: bold;" text="[Título 7]" />
+                                <Label fx:id="lblAutor7" layoutX="14.0" layoutY="38.0" text="Autor:" />
+                                <Label fx:id="lblPrecio7" layoutX="14.0" layoutY="62.0" text="Precio:" />
+                                <CheckBox fx:id="chbAgregar7" layoutX="63.0" layoutY="94.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="100.0" styleClass="button" text="Agregar" />
+                            </children>
+                        </Pane>
+                        
+                        <Pane prefHeight="137.0" prefWidth="274.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                            <children>
+                                <Label fx:id="lblTitulo8" layoutX="14.0" layoutY="14.0" style="-fx-font-weight: bold;" text="[Título 8]" />
+                                <Label fx:id="lblAutor8" layoutX="14.0" layoutY="38.0" text="Autor:" />
+                                <Label fx:id="lblPrecio8" layoutX="14.0" layoutY="62.0" text="Precio:" />
+                                <CheckBox fx:id="chbAgregar8" layoutX="63.0" layoutY="94.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="100.0" styleClass="button" text="Agregar" />
+                            </children>
+                        </Pane>
+                        
+                              <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                            <children>
+                                <Label fx:id="lblTitulo11" layoutX="14.0" layoutY="14.0" style="-fx-font-weight: bold;" text="[Título 11]" />
+                                <Label fx:id="lblAutor11" layoutX="14.0" layoutY="38.0" text="Autor:" />
+                                <Label fx:id="lblPrecio11" layoutX="14.0" layoutY="62.0" text="Precio:" />
+                                <CheckBox fx:id="chbAgregar11" layoutX="63.0" layoutY="93.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="100.0" styleClass="button" text="Agregar" />
+                            </children>
+                        </Pane>
+                        
+                        <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                            <children>
+                                <Label fx:id="lblTitulo12" layoutX="14.0" layoutY="14.0" style="-fx-font-weight: bold;" text="[Título 12]" />
+                                <Label fx:id="lblAutor12" layoutX="14.0" layoutY="38.0" text="Autor:" />
+                                <Label fx:id="lblPrecio12" layoutX="14.0" layoutY="62.0" text="Precio:" />
+                                <CheckBox fx:id="chbAgregar12" layoutX="63.0" layoutY="93.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="100.0" styleClass="button" text="Agregar" />
+                            </children>
+                        </Pane>
+                    </children>
+                </GridPane>
+                
+                <Button fx:id="btnComprar" layoutX="706.0" layoutY="491.0" mnemonicParsing="false" onAction="#comprar" text="Comprar" />
+                <ComboBox fx:id="cmbMetodoDePago" layoutX="476.0" layoutY="494.0" prefHeight="25.0" prefWidth="192.0" promptText="Seleccione metodo de pago" />
+                <Button fx:id="btnSalir" layoutX="1129.0" layoutY="23.0" mnemonicParsing="false" onAction="#salir" text="X" />
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

@@ -1,0 +1,60 @@
+/* Botón de cierre */
+.close-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #d6adfc;
+}
+
+.close-btn:hover {
+    -fx-background-color: #5d459b;
+    -fx-text-fill: #d6adfc;
+}
+
+/* Labels */
+.label {
+    -fx-background-color: transparent;
+    -fx-text-fill: #d6adfc;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+}
+
+/* TextFields */
+.textfield {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #1c267d, #0d1351);
+    -fx-background-radius: 4;
+    -fx-border-color: #5d459b;
+    -fx-border-width: 0.8;
+    -fx-border-radius: 4;
+    -fx-font-size: 13;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #d6adfc;
+}
+
+.textfield:focused {
+    -fx-background-color: #0d1351;
+    -fx-border-color: #d6adfc;
+    -fx-border-width: 1.2;
+}
+
+/* Botón Guardar */
+.btn-save {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #5d459b, #1c267d);
+    -fx-background-radius: 5;
+    -fx-text-fill: #d6adfc;
+    -fx-font-size: 14;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+}
+
+.btn-save:hover {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #d6adfc, #5d459b);
+    -fx-text-fill: #0d1351;
+}
+
+/* Formularios */
+.form {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #0d1351, #1c267d);
+    -fx-border-color: #5d459b;
+    -fx-border-width: 1;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
